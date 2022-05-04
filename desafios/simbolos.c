@@ -5,7 +5,7 @@
 main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
+    printf("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
     printf(" \\a \t = \t Beep \n");
     printf(" \\n \t = \t Nova linha \n");
     printf(" \\t \t = \t Tabulação \n");
