@@ -16,6 +16,6 @@ main(){
     printf("Desconto: \(%%) ");
     scanf("%f", &desc);
 
-    printf("\nO produto %s custava R$ %.2f, aplicando o desconto de %.2f%% passa a custar R$ %.2f. \n", prod,preco,desc, preco-(preco*desc)/100);
+    printf("\nO produto %s custava R$ %.2f.\nAplicando o desconto de %.2f%% passa a custar R$ %.2f. \n", prod,preco,desc, (preco-(preco*desc)/100));
 
 }
