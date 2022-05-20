@@ -9,12 +9,14 @@ main(){
     scanf("%i",&num);
 
     if (num > 0){
-        printf("O inverso de %i é %.2f",num,(float)1/num);
+        printf("O inverso de %i é %.2f.",num,(float)1/num);
 
-    }else if (num<0){
-        printf("O valor absoluto de %i é %i",num,num*(-1));
-        }if (num==0){
-            printf("O valor de %i é %i",num,num);
+    }else{
+        if (num<0){
+        printf("O valor absoluto de %i é %i.",num,num*(-1));
+        }else{
+            printf("O valor de %i é %i.",num,num);
+    }
     }
 }
 
