@@ -5,7 +5,7 @@ main(){
     setlocale(0,"Portuguese");
     int num;
 
-    printf("Digite um numero: ");
+    printf("Digite um numero (positivo ou negativo): ");
     scanf("%i",&num);
 
     if (num > 0){
