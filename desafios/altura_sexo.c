@@ -14,6 +14,7 @@ main(){
     sexo=getchar();
 
 
+
     if (sexo=='f' || sexo=='F'){
         peso =(62.1 * altura) - 44.7;
         printf("O seu peso ideal e: %.2f",peso);
